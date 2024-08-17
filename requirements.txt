@@ -1,1 +1,6 @@
 fastapi[all]
+pydantic
+torch
+transformers
+qdrant_client
+starlette
