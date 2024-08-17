@@ -30,7 +30,10 @@ app.add_middleware(
 )
 class UserCreate(BaseModel):
     query: str
-
+    
+@app.get("/")
+def read_root():
+    return {"Hello": "World"}
 
 @app.post("/")
 def read_root(query_data: UserCreate):
