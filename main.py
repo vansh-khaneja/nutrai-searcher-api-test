@@ -35,8 +35,8 @@ async def load_model():
 
 # Initialize Qdrant client
 qdrant_client = QdrantClient(
-    url="https://f575a6c0-4880-4ba1-bac4-ce3febd5e83a.us-east4-0.gcp.cloud.qdrant.io",
-    api_key="P9qpgcryuCBF8c78hYU4QwImfJIkZimHXZSIBqfax6W3rGi-LNwN4g",
+    url="QDRANT_URL",
+    api_key="API_KEY",
 )
 
 # Define Pydantic model for query data
